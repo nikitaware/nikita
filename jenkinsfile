@@ -2,7 +2,7 @@ pipeline {
 
     agent {
       label {
-        label "slave2"
+        label "slave 2"
         customWorkspace "/mnt/branch 2"
           }
        }
@@ -19,7 +19,7 @@ pipeline {
 
        stage ("2nd") {
               steps {
-           git url:"https://github.com/nikitaware/nikita.git",branch:"Q"
+           git url:"https://github.com/nikitaware/nikita.git",branch:"Q3"
                    }
             }
 
